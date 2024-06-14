@@ -6,26 +6,6 @@
     "email": "haoxuanwu2-c@my.cityu.edu.hk",
     "url": "https://loskiw.github.io/"
   },
-  "work": [
-    {
-      "name": "Beijing Aixin Technology Co., Lt",
-      "position": "AI Toolchain Development Engineer",
-      "startDate": "2022-01",
-      "endDate": "2022-06",
-      "summary": "Investigate whether there is a better trade-off between FPS and the number of instructions in the operating logic of the company's chips."
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "China International Fair for Trade in Services",
-      "position": "Volunteer Leader",
-      "startDate": "2020-08",
-      "endDate": "2020-09",
-      "summary": "Volunteer Leader of School of Control and Computer Engineering. Responsible for coordinating and managing volunteer work arrangements for related venues;",
-      "highlights": [
-        "Awarded 'Outstanding Volunteer'"
-      ]
-    }],
   "education": [
     {
       "institution": "City University of Hong Kong",
@@ -60,5 +40,25 @@
       "endDate": "2022-06-01",
       "score": "10"
     }
-  ]
+  ],
+  "work": [
+    {
+      "name": "Beijing Aixin Technology Co., Lt",
+      "position": "AI Toolchain Development Engineer (Intern)",
+      "startDate": "2022-01",
+      "endDate": "2022-06",
+      "summary": "Investigate whether there is a better trade-off between FPS and the number of instructions in the operating logic of the company's chips."
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "China International Fair for Trade in Services",
+      "position": "Volunteer Leader",
+      "startDate": "2020-08",
+      "endDate": "2020-09",
+      "summary": "Volunteer Leader of School of Control and Computer Engineering. Responsible for coordinating and managing volunteer work arrangements for related venues;",
+      "highlights": [
+        "Awarded 'Outstanding Volunteer'"
+      ]
+    }]
 }
