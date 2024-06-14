@@ -8,6 +8,3 @@ category: project
 ---
 
 [Page Link](https://loskiw.github.io/old_fp_1/)
-
-```
-{% endraw %}
