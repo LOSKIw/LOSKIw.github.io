@@ -20,7 +20,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am currently pursuing the Ph.D. degree with the Department of Electrical Engineering from [City University of Hong Kong](https://www.cityu.edu.hk/), under the supervision of [Prof. Po Lai-Man](http://www.ee.cityu.edu.hk/~lmpo/).
 
-I received the B.Eng. degree in computer science and technology from the North China Electric Power University, and the M.S. degree in multimedia information technology from the City University of Hong Kong.
+I received the B.Eng. degree in computer science and technology from the [North China Electric Power University](https://www.ncepu.edu.cn/), and the M.S. degree in multimedia information technology from the [City University of Hong Kong](https://www.cityu.edu.hk/).
 
 During my undergraduate studies, I joined the computer vision lab at school of control and computer engineering, under the supervision of [Prof. Shi Min](https://cce.ncepu.edu.cn/szdw/jsml/rjgcjys/11887a993a444b23b4af863190aed157.htm). I primarily focused on computer vision tasks, specifically saliency detection and image enhancement.
 
