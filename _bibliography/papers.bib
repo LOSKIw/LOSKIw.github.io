@@ -13,6 +13,9 @@
   pages={1-1},
   keywords={Noise reduction;Task analysis;Optical flow;Image synthesis;Circuits and systems;Training;Correlation;Human pose transfer;Diffusion models;Self-Calibration flow module;Multi-scale feature fusing module},
   doi={10.1109/TCSVT.2024.3382948},
+
+  abbr={TCSVT},
+  abstract={The human pose transfer task aims to generate synthetic person images that preserve the style of reference images while accurately aligning them with the desired target pose. However, existing methods based on generative adversarial networks (GANs) struggle to produce realistic details and often face spatial misalignment issues. On the other hand, methods relying on denoising diffusion models require a large number of model parameters, resulting in slower convergence rates. To address these challenges, we propose a self-calibration flow-guided module (SCFM) to establish precise spatial correspondence between reference images and target poses. This module facilitates the denoising diffusion model in predicting the noise at each denoising step more effectively. Additionally, we introduce a multi-scale feature fusing module (MSFF) that enhances the denoising U-Net architecture through a cross-attention mechanism, achieving better performance with a reduced parameter count. Our proposed model outperforms state-of-the-art methods on the DeepFashion and Market-1501 datasets in terms of both the quantity and quality of the synthesized images. Our code is publicly available at https://github.com/zylwithxy/SCFM-guided-DDPM.},
   selected={true}
 }
 
