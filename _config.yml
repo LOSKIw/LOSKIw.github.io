@@ -276,7 +276,9 @@ display_categories: ['blockquotes'] # these categories will be displayed on the 
 scholar:
 
   # last_name: [Wu]
-  first_name: [Haoxuan, H.X]
+  # first_name: [Haoxuan]
+
+  first_name: [Haoxuan]
 
   style: apa
   locale: en
