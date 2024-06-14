@@ -5,7 +5,7 @@ permalink: /
 subtitle: <a href='#'>吴昊轩, Loski</a>, Former name Wu Tongyu.
 
 profile:
-  align: left
+  align: right
   image: facial_1.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
