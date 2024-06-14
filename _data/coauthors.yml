@@ -1,12 +1,3 @@
-"Rocket":
-  - firstname: ["Wing-Yin"]
-    url: https://rocketappslab.github.io/cv/
-
-"Po":
-  - firstname: ["Lai-Man"]
-    url: http://www.ee.cityu.edu.hk/~lmpo/
-
-
 "Adams":
   - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
     url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
@@ -41,3 +32,11 @@
 "Planck":
   - firstname: ["Max"]
     url: https://en.wikipedia.org/wiki/Max_Planck
+
+"Rocket":
+  - firstname: ["Wing-Yin"]
+    url: https://rocketappslab.github.io/cv/
+
+"Po":
+  - firstname: ["Lai-Man"]
+    url: http://www.ee.cityu.edu.hk/~lmpo/
