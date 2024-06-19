@@ -2,15 +2,18 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>吴昊轩, Loski</a>, Former name Wu Tongyu.
+subtitle: >
+  <a href='#'>吴昊轩, Loski</a>, Former name Wu Tongyu.<br>
+  Doctor of Philosophy (Student), Department of Electrical Engineering,
+  <a href='https://www.cityu.edu.hk/'>City University of Hong Kong</a>.
 
 profile:
   align: right
   image: facial_1.jpeg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>CityUHK</p>
-    <p>China</p>
+  # more_info: >
+  #   <p>CityUHK</p>
+  #   <p>China</p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
