@@ -21,10 +21,16 @@ layout: default
                   <!-- {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 400px) 30vw, 95vw"{% endcapture %}
                    -->
                    
-                  {% include figure.html
+                  <!-- {% include figure.html
                     path = profile_image_path
                     class = profile_image_class
                     sizes = sizes
+                    alt = page.profile.image
+                    cache_bust = true 
+                  %} -->
+                  {% include figure.html
+                    path = profile_image_path
+                    class = profile_image_class
                     alt = page.profile.image
                     cache_bust = true 
                   %}

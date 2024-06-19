@@ -4,7 +4,7 @@ title: about
 permalink: /
 subtitle: >
   <a href='#'>吴昊轩, Loski</a>, Former name Wu Tongyu.<br><br>
-  Doctor of Philosophy (Student), Department of Electrical Engineering,
+  Doctor of Philosophy (Student), Department of Electrical Engineering,<br>
   <a href='https://www.cityu.edu.hk/'>City University of Hong Kong</a>.
 
 profile:
