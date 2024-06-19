@@ -6,7 +6,7 @@ layout: default
       <div class="post">
         <article>
           {% if page.profile -%}
-          <div class="row">        
+          <div class="row">
             <div class="col-sm-3">
               <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
                 {%- if page.profile.image %}
@@ -48,10 +48,10 @@ layout: default
                   {{ site.contact_note }}
                 </div>
               </div>
-            {%- endif %}
+              {%- endif %}
             </div>
           </div>
-
+          {% endif -%}
           <div class="clearfix">
             {{ content }}
           </div>
