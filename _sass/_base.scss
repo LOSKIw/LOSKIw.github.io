@@ -348,6 +348,28 @@ blockquote {
 
 // Social (bottom)
 
+.social-samll {
+  text-align: left;
+  .contact-icons {
+    font-size: 3rem;
+    a {
+      i::before {
+        color: var(--global-text-color);
+        transition-property: all 0.2s ease-in-out;
+      }
+      &:hover {
+        i::before {
+          color: var(--global-theme-color);
+        }
+      }
+    }
+  }
+  .contact-note {
+    text-align: left;
+    font-size: 0.8rem;
+  }
+}
+
 .social {
   text-align: center;
 

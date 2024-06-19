@@ -18,8 +18,9 @@ layout: default
                     {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
                   {% endif %}
 
-                  {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 400px) 30vw, 95vw"{% endcapture %}
-                  
+                  <!-- {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 400px) 30vw, 95vw"{% endcapture %}
+                   -->
+                   
                   {% include figure.html
                     path = profile_image_path
                     class = profile_image_class
@@ -39,7 +40,7 @@ layout: default
 
               <!-- Social -->
               {%- if page.social %}
-              <div class="social">
+              <div class="social-samll">
                 <div class="contact-icons">
                   {% include social.html %}
                 </div>
