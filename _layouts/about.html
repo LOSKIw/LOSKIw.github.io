@@ -8,23 +8,21 @@ layout: default
           {% if page.profile -%}
           <div class="row">
             <div class="col-sm-3">
-              <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
-                {%- if page.profile.image %}
-                  {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+              {%- if page.profile.image %}
+                {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
 
-                  {% if page.profile.image_circular %}
-                    {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
-                  {% else %}
-                    {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
-                  {% endif %}
+                {% if page.profile.image_circular %}
+                  {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
+                {% else %}
+                  {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+                {% endif %}
 
-                  {% include figure.html
-                    path = profile_image_path
-                    class = profile_image_class
-                    alt = page.profile.image
-                  %}
-                {% endif -%}
-              </div>
+                {% include figure.html
+                  path = profile_image_path
+                  class = profile_image_class
+                  alt = page.profile.image
+                %}
+              {% endif -%}
             </div>
 
             <div class="col-sm-9">
