@@ -2,16 +2,19 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: >
+  <a href='#'>吴昊轩, Loski</a>, Former name Wu Tongyu.<br><br>
+  Ph.D., Department of Electrical Engineering,<br>
+  <a href='https://www.cityu.edu.hk/'>City University of Hong Kong</a>.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: facial_1.jpeg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  # more_info: >
+  #   <p>555 your office number</p>
+  #   <p>123 your address street</p>
+  #   <p>Your City, State 12345</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +30,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am currently pursuing the Ph.D. degree with the Department of Electrical Engineering from [City University of Hong Kong](https://www.cityu.edu.hk/), under the supervision of [Prof. Po Lai-Man](http://www.ee.cityu.edu.hk/~lmpo/).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I received the B.Eng. degree in computer science and technology from the [North China Electric Power University](https://www.ncepu.edu.cn/), and the M.S. degree in multimedia information technology from the [City University of Hong Kong](https://www.cityu.edu.hk/).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+During my undergraduate studies, I joined the computer vision lab at school of control and computer engineering, under the supervision of [Prof. Shi Min](https://cce.ncepu.edu.cn/szdw/jsml/rjgcjys/11887a993a444b23b4af863190aed157.htm). I primarily focused on computer vision tasks, specifically saliency detection and image enhancement.
+
+My research interests are deep learning and computer vision. Recently, I am working on image generating task.
