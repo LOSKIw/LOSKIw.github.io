@@ -3,21 +3,18 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  <a href='#'>吴昊轩, Loski</a>, Former name Wu Tongyu.
-# <a href='#'>吴昊轩, Loski</a>, Former name Wu Tongyu.<br><br>
-# Ph.D., Department of Electrical Engineering,<br>
-# <a href='https://www.cityu.edu.hk/'>City University of Hong Kong</a>.
+  <a href='#'>吴昊轩, Loski</a>, Former name Wu Tongyu.<br><br>
+  Ph.D., Department of Electrical Engineering,<br>
+  <a href='https://www.cityu.edu.hk/'>City University of Hong Kong</a>.
 
 profile:
-  align: right
+  align: left
   image: facial_1.jpeg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Ph.D., Department of Electrical Engineering</p>
-    <p><a href='https://www.cityu.edu.hk/'>City University of Hong Kong</a>.</p>
-# <p>555 your office number</p>
-# <p>123 your address street</p>
-# <p>Your City, State 12345</p>
+  # more_info: >
+  #   <p>555 your office number</p>
+  #   <p>123 your address street</p>
+  #   <p>Your City, State 12345</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
