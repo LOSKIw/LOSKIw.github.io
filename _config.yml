@@ -192,6 +192,7 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - assets/old_tools
 keep_files:
   - CNAME
   - .nojekyll
