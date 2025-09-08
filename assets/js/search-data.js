@@ -30,7 +30,14 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "projects-former-frontpage",
+        },{id: "dropdown-life",
+              title: "life",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/life/";
+              },
+            },{id: "projects-former-frontpage",
           title: 'Former FrontPage',
           description: "Link to previous fontpage",
           section: "Projects",handler: () => {
