@@ -21,19 +21,23 @@
           <tr>
             <td></td>
             <td class="list-group-name">{{ content.level }}</td>
-            {% if content.ST %}
+          </tr>
+          {% if content.ST %}
+            <tr>
               <td class="list-group-name">
               <b>ST</b>
               </td>
+            </tr>
+            <tr>
               <ul class="items">
                 {% for item in content.ST %}
                   <li>
-                    <span class="item" style="font-style: italic">{{ item }}</span>
+                    <span class="item" style="font-size: 0.8rem font-style: italic">{{ item }}</span>
                   </li>
                 {% endfor %}
               </ul>
-            {% endif %}
-          </tr>
+            </tr>
+          {% endif %}
         </tbody>
       </table>
     </div>
