@@ -1,0 +1,20 @@
+{
+  "Model Making": [
+    {
+      "name": "Bandai-Gundam",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "RG - NU Gundam",
+        "RG - RX-78-2 Gundam Ver.2.0"
+      ]
+    },
+    {
+      "name": "Kotobukiya",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Buster Doll - Tank",
+        "Buster Doll - Knight"
+      ]
+    }
+  ]
+}
