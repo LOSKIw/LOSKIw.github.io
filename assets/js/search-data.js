@@ -10,21 +10,21 @@ ninja.data = [{
       window.location.href = "/";
     },
   },{id: "nav-cv",
-          title: "CV",
+          title: "cv",
           description: "Wu Haoxuan, Loski",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
         },{id: "nav-publications",
-          title: "Publications",
+          title: "publications",
           description: "Deep Learning, Computer Vision, Diffusion, Image Synthesis, AIGC.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-projects",
-          title: "Projects",
+          title: "projects",
           description: "Archive.",
           section: "Navigation",
           handler: () => {
