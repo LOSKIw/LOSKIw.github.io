@@ -13,9 +13,9 @@ layout: default
 
   <article>
     <div class="cv">
-      {% for data in site.data.resume %}
-        {% if site.jsonresume and site.jsonresume.size > 0 %}
-          {% unless site.jsonresume contains data[0] %}
+      {% for data in site.data.life %}
+        {% if site.jsonlife and site.jsonlife.size > 0 %}
+          {% unless site.jsonlife contains data[0] %}
             {% continue %}
           {% endunless %}
         {% endif %}
@@ -26,7 +26,7 @@ layout: default
           <div>
             {% case data[0] %}
               {% when 'Model Making' %}
-                {% include resume/Model Making.liquid %}
+                {% include life/Model Making.liquid %}
               {% else %}
 
             {% endcase %}
