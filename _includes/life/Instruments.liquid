@@ -20,15 +20,13 @@
           </tr>
           <tr>
             <td></td>
-            <td class="list-group-name">{{ content.level }}</td>
+            <td class="list-group-name"><b>{{ content.level }}</b></td>
           </tr>
           {% if content.ST %}
             {% for item in content.ST %}
               <tr>
                 <td></td>
-                <td class="list-group-name">
-                  <b> - {{ item }}</b>
-                </td>
+                <td class="list-group-name"> - {{ item }}</td>
               </tr>
             {% endfor %}
           {% endif %}
