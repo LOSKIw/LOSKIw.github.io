@@ -1,0 +1,41 @@
+<div class="list-groups">
+  {% for content in data[1] %}
+    <div class="list-group col-md-6">
+      <table class="table-cv list-group-table">
+        <tbody>
+          <tr>
+            {% if content.icon %}
+              <td class="list-group-category-icon">
+                <i class="{{ content.icon }}"></i>
+              </td>
+            {% else %}
+              <td class="list-group-category-icon"></td>
+            {% endif %}
+            <!-- Calculate colspan number for category title -->
+            {% assign i = 1 %}
+            {% for item in content.items %}
+              {% assign i = i | plus: 1 %}
+            {% endfor %}
+            <td colspan="{{ i }}" class="list-group-category">{{ content.instrument }}</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="list-group-name">{{ content.level }}</td>
+            {% if content.ST %}
+              <td class="list-group-name">
+              <b>ST</b>
+              </td>
+              <ul class="items">
+                {% for item in content.ST %}
+                  <li>
+                    <span class="item" style="font-style: italic">{{ item }}</span>
+                  </li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  {% endfor %}
+</div>
