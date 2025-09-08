@@ -24,19 +24,19 @@
           </tr>
           {% if content.ST %}
             <tr>
+              <td></td>
               <td class="list-group-name">
               <b>ST</b>
               </td>
             </tr>
-            <tr>
-              <ul class="items">
-                {% for item in content.ST %}
-                  <li>
-                    <span class="item" style="font-size: 0.8rem font-style: italic">{{ item }}</span>
-                  </li>
-                {% endfor %}
-              </ul>
-            </tr>
+            {% for item in content.keywords %}
+              <tr>
+                <td></td>
+                <td class="list-group-name">
+                  <b> - {{ item }}</b>
+                </td>
+              </tr>
+            {% endfor %}
           {% endif %}
         </tbody>
       </table>
