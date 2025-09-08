@@ -15,6 +15,11 @@
       "level": "Tried",
       "ST": ["Down by the Salley Gardens"],
       "icon": ""
+    },
+    {
+      "instrument": "Whistle",
+      "level": "It depends.",
+      "icon": ""
     }
   ],
   "Model-Kit": [
