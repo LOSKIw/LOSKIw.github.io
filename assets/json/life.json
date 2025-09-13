@@ -3,19 +3,19 @@
     {
       "instrument": "Piano",
       "level": "Learned",
-      "ST":["Marasy", "Animenzzz"],
-      "icon": ""
+      "ST":["🤵🏻Marasy", "🤵🏻Animenzzz"],
+      "icon": "🎹"
     },
     {
       "instrument": "Suona",
       "level": "Learned",
-      "icon": ""
+      "icon": "🎺"
     },
     {
       "instrument": "Tin Whistle",
       "level": "Tried",
-      "ST": ["Down by the Salley Gardens"],
-      "icon": ""
+      "ST": ["🎼Down by the Salley Gardens"],
+      "icon": "🪈"
     },
     {
       "instrument": "Whistle",
