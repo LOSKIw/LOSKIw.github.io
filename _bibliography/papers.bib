@@ -34,7 +34,6 @@
 
   abbr={TCSVT},
   abstract={The human pose transfer task aims to generate synthetic person images that preserve the style of reference images while accurately aligning them with the desired target pose. However, existing methods based on generative adversarial networks (GANs) struggle to produce realistic details and often face spatial misalignment issues. On the other hand, methods relying on denoising diffusion models require a large number of model parameters, resulting in slower convergence rates. To address these challenges, we propose a self-calibration flow-guided module (SCFM) to establish precise spatial correspondence between reference images and target poses. This module facilitates the denoising diffusion model in predicting the noise at each denoising step more effectively. Additionally, we introduce a multi-scale feature fusing module (MSFF) that enhances the denoising U-Net architecture through a cross-attention mechanism, achieving better performance with a reduced parameter count. Our proposed model outperforms state-of-the-art methods on the DeepFashion and Market-1501 datasets in terms of both the quantity and quality of the synthesized images. Our code is publicly available at https://github.com/zylwithxy/SCFM-guided-DDPM.},
-  selected={true}
 }
 
 @article{JIANG2025126936,
@@ -62,3 +61,30 @@
   abbr={ICONIP},
   abstract = {This paper introduces Standard Basis LoRA (SBoRA), a novel parameter-efficient fine-tuning approach for Large Language Models that builds upon the pioneering works of Low-Rank Adaptation (LoRA) and Orthogonal Adaptation. SBoRA reduces the number of trainable parameters by half or doubles the rank with the similar number of trainable parameters as LoRA, while improving learning performance. By utilizing orthogonal standard basis vectors to initialize one of the low-rank matrices (either A or B), SBoRA facilitates regional weight updates and memory-efficient fine-tuning. This results in two variants, SBoRA-FA and SBoRA-FB, where only one of the matrices is updated, leading to a sparse update matrix ΔW with predominantly zero rows or columns. Consequently, most of the fine-tuned model's weights (W0+ΔW) remain unchanged from the pre-trained weights, akin to the modular organization of the human brain, which efficiently adapts to new tasks. Our empirical results demonstrate the superiority of SBoRA-FA over LoRA in various fine-tuning tasks, including commonsense reasoning and arithmetic reasoning. Furthermore, we evaluate the effectiveness of QSBoRA on quantized LLaMA models of varying scales, highlighting its potential for efficient adaptation to new tasks. Code is available at this https URL}
 }
+
+@Article{Wu2025,
+  author={Wu, Haoxuan
+  and Po, Lai-Man
+  and Liu, Yuyang
+  and Yu, Wing-Yin
+  and Zhang, Tianqi
+  and Jiang, Zeyu
+  and Li, Kun},
+  title={Multi-SBoRA: regional and non-overlapping weight updates for multi-concept customization of diffusion models},
+  journal={Multimedia Systems},
+  year={2025},
+  month={Oct},
+  day={09},
+  volume={31},
+  number={6},
+  pages={415},
+  abstract={Customizing diffusion models for multiple concepts remains challenging due to cross-concept interference. This paper introduces Multi-SBoRA, a novel method for customizing diffusion models for multiple concepts. By leveraging orthogonal standard basis vectors, Multi-SBoRA constructs low-rank matrices for LoRA fine-tuning, enabling regional and non-overlapping weight updates that effectively mitigate crosstalk between different concepts. This approach preserves the knowledge embedded in the pre-trained model and reduces interference between customized concepts, thereby ensuring that each concept is learned independently without compromising its integrity. The localized weight updates also reduce computational overhead and enhance model flexibility. Experimental results demonstrate the optimal quantitative performance of Multi-SBoRA, showcasing its efficacy in addressing multi-concept customization while maintaining independence via orthogonality and localized updates, and mitigating crosstalk effects.},
+  issn={1432-1882},
+  doi={10.1007/s00530-025-02008-9},
+  url={https://doi.org/10.1007/s00530-025-02008-9},
+
+  abbr={MMS},
+  preview={CoReDiff_pre.jpeg},
+  selected={true}
+}
+
