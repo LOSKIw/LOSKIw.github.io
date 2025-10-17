@@ -23,12 +23,26 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-service",
+          title: "service",
+          description: "Wu Haoxuan, Loski",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/service/";
+          },
         },{id: "dropdown-life",
               title: "life",
               description: "",
               section: "Dropdown",
               handler: () => {
                 window.location.href = "/life/";
+              },
+            },{id: "dropdown-project",
+              title: "project",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/project/";
               },
             },{id: "projects-former-frontpage",
           title: 'Former FrontPage',
