@@ -16,20 +16,16 @@
             {% for item in content.items %}
               {% assign i = i | plus: 1 %}
             {% endfor %}
-            <td colspan="{{ i }}" class="list-group-category">{{ content.instrument }}</td>
+            <td colspan="{{ i }}" class="list-group-category">{{ content.year }}</td>
           </tr>
-          <tr>
-            <td></td>
-            <td class="list-group-name"><b>{{ content.level }}</b></td>
-          </tr>
-          {% if content.ST %}
-            {% for item in content.ST %}
-              <tr>
-                <td></td>
-                <td class="list-group-name"> - {{ item }}</td>
-              </tr>
-            {% endfor %}
-          {% endif %}
+          {% for item in content.task %}
+            <tr>
+              <td></td>
+              <td class="list-group-name">
+                <b>{{ item.Name }} - {{ item.time }}</b>
+              </td>
+            </tr>
+          {% endfor %}
         </tbody>
       </table>
     </div>
