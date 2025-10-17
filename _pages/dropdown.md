@@ -8,4 +8,6 @@ children:
   - title: life
     permalink: /life/
   - title: divider
+  - title: project
+    permalink: /project/
 ---
