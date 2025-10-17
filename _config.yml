@@ -631,6 +631,8 @@ jekyll_get_json:
     json: assets/json/resume.json # it can also be an url
   - data: life
     json: assets/json/life.json # it can also be an url
+  - data: service
+    json: assets/json/service.json # it can also be an url
 
 jsonresume:
   - basics
@@ -646,6 +648,8 @@ jsonresume:
   - interests
   - references
 
+jsonservice:
+  - review
 
 jsonlife:
   - Instruments
