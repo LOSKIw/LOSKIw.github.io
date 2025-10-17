@@ -4,23 +4,23 @@
       "instrument": "Piano",
       "level": "Learned",
       "ST":["🤵🏻Marasy", "🤵🏻Animenzzz"],
-      "icon": "🎹"
+      "icon": "fa-solid fa-tag"
     },
     {
       "instrument": "Suona",
       "level": "Learned",
-      "icon": "🎺"
+      "icon": "fa-solid fa-tag"
     },
     {
       "instrument": "Tin Whistle",
       "level": "Tried",
       "ST": ["🎼Down by the Salley Gardens"],
-      "icon": "🪈"
+      "icon": "fa-solid fa-tag"
     },
     {
       "instrument": "Whistle",
       "level": "It depends.",
-      "icon": ""
+      "icon": "fa-solid fa-tag"
     }
   ],
   "Model-Kit": [
