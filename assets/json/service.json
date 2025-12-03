@@ -5,7 +5,7 @@
       "task": [
         {
           "Name": "Computer vision and image understanding",
-          "time": 3
+          "time": 4
         },
         {
           "Name": "Engineering applications of artificial intelligence",
@@ -13,10 +13,14 @@
         },
         {
           "Name": "Expert systems with applications",
-          "time": 1
+          "time": 2
         },
         {
           "Name": "Neural Networks",
+          "time": 1
+        },
+        {
+          "Name": "Information fusion",
           "time": 1
         }
       ]
