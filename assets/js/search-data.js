@@ -37,12 +37,12 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/life/";
               },
-            },{id: "dropdown-project",
-              title: "project",
+            },{id: "dropdown-projects",
+              title: "projects",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/project/";
+                window.location.href = "/projects/";
               },
             },{id: "projects-former-frontpage",
           title: 'Former FrontPage',
