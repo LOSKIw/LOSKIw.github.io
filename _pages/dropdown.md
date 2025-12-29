@@ -5,9 +5,9 @@ nav: true
 nav_order: 4
 dropdown: true
 children:
-  - title: life
-    permalink: /life/
-  - title: divider
+  # - title: life
+  #   permalink: /life/
+  # - title: divider
   - title: projects
     permalink: /projects/
 ---
