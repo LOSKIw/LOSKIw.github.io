@@ -36,4 +36,4 @@ I received the B.Eng. degree in computer science and technology from the [North 
 
 During my undergraduate studies, I joined the computer vision lab at school of control and computer engineering, under the supervision of [Prof. Shi Min](https://cce.ncepu.edu.cn/szdw/jsml/rjgcjys/11887a993a444b23b4af863190aed157.htm). I primarily focused on computer vision tasks, specifically saliency detection and image enhancement.
 
-My research interests are deep learning and computer vision. Recently, I am working on image generating task.
+My research interests are deep learning and computer vision. Recently, I am working on image/video generation.
