@@ -1,41 +1,14 @@
 {
   "Review": [
     {
-      "year": 2026,
+      "type": "Journal",
       "task": [
-        {
-          "Name": "Computer vision and image understanding",
-          "time": 1
-        },
-        {
-          "Name": "Engineering applications of artificial intelligence",
-          "time": 1
-        }
-      ]
-    },
-    {
-      "year": 2025,
-      "task": [
-        {
-          "Name": "Computer vision and image understanding",
-          "time": 4
-        },
-        {
-          "Name": "Engineering applications of artificial intelligence",
-          "time": 1
-        },
-        {
-          "Name": "Expert systems with applications",
-          "time": 2
-        },
-        {
-          "Name": "Neural Networks",
-          "time": 1
-        },
-        {
-          "Name": "Information fusion",
-          "time": 1
-        }
+        {"Name": "Computer Vision and Image Understanding"},
+        {"Name": "Engineering Applications of Artificial Intelligence"},
+        {"Name": "Expert Systems with Applications"},
+        {"Name": "Neural Networks"},
+        {"Name": "Information Fusion"},
+        {"Name": "Pattern Recognition"}
       ]
     }
   ]
