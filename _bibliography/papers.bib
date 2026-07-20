@@ -101,3 +101,28 @@
   keywords = {Continual Standard-Basis Low-Rank Adaptation, Supervised continual learning, Large language model, Parameter-efficient fine-tuning, True orthogonality},
   abstract = {Continual learning in large language models (LLMs) faces significant challenges, including catastrophic forgetting and efficient adaptation to new tasks. This paper introduces Continual Standard-Basis Low-Rank Adaptation (CSBoRA), a continual-learning adapter that achieves true orthogonality by construction. CSBoRA assigns each task to a disjoint standard-basis subspace through a fixed one-hot projection-down matrix, yielding regional (sparse) weight updates that isolate task-specific adaptations and better preserve pretrained knowledge. This design eliminates orthogonality regularization, reduces training overhead, and allows higher effective rank under comparable parameter budgets. Our experiments demonstrate that CSBoRA outperforms existing LoRA-based continual learning approaches in training efficiency, robustness, and test performance. CSBoRA achieves true orthogonality, reduces computational overhead, and preserves pre-trained knowledge more effectively. We evaluate CSBoRA on various benchmarks using T5 and LLaMA models. Results show CSBoRA effectively improves performance, mitigates catastrophic forgetting, and reduces training time. This research contributes to efficient and scalable continual learning methods.}
 }
+
+@InProceedings{Jiang_2026_CVPR,
+    author    = {Jiang, Zeyu and Po, Lai Man and Xu, Xuyuan and Wang, Yexin and Gong, Guoping and Wu, Haoxuan and Yan, Chenbo and Li, Kun and Liu, Yuyang},
+    title     = {OrionEdit: Bridging Reference and Source Images for Generalized Cross-Image Editing},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2026},
+    pages     = {9127-9138},
+    abstract = {Multimodal image synthesis has made significant progress, yet most editing methods still rely on textual instructions, which are less direct than visual guidance. Recently, a new paradigm edits one image using another as reference, enabling more intuitive manipulation through visual exemplars. We formalize this setting as cross-image editing, where a source image is modified under one or more visual references. We propose OrionEdit, a unified framework that regulates editing via symmetric orthogonal subspace disentanglement and reverse-causal attention with information-flow masks enforcing unidirectional latent dependencies. Built on standard diffusion backbones, OrionEdit enables zero-shot multi-reference editing and outperforms open-source baselines, approaching proprietary models in fidelity and disentanglement. The model is available at https://github.com/cityuhkai/OrionEdit.},
+
+    abbr={PR},
+}
+
+@misc{wu2026prismpreferencerepresentationintermediate,
+    title={Through the PRISM: Preference Representation in Intermediate States of Video Diffusion Models}, 
+    author={Haoxuan Wu and Lai Man Po and Mengyang Liu and Kun Li and Hongzheng Yang and Wei Liu},
+    year={2026},
+    eprint={2606.20310},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV},
+    url={https://arxiv.org/abs/2606.20310}, 
+    abstract = {Evaluating video generation with clean, pixel-based reward models disconnects evaluation from the noisy diffusion process and incurs massive VAE decoding costs. In this paper, we challenge this paradigm by asking a fundamental question: Can a powerful video generator inherently discriminate preferences directly from noisy latents? To answer this, we introduce \textbf{PRISM} (\textbf{P}reference \textbf{R}epresentation in \textbf{I}ntermediate \textbf{S}tates of Diffusion \textbf{M}odels). PRISM employs a lightweight Query-based Aggregation head with a frozen video diffusion backbone to decode preference signals from noisy latents. Surprisingly, PRISM not only achieves SOTA preference accuracy but also unlocks strong noise-robustness, which enables early-stage Best-of-N sampling. This allows for filtering suboptimal candidates at the very beginning of denoising, drastically reducing computation while boosting video quality. We also reveal a strong positive correlation between a backbone's generative performance and its inherent evaluative power, enabling self-improving video backbones.},
+
+    abbr={arxiv},
+}
